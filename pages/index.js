@@ -5,8 +5,8 @@ import Card from '../components/Card'
 import Image from 'next/image'
 
 const cardImages = [
-  {src: "/img/9C.svg", matched: false},
-  {src: "/img/9S.svg", matched: false},
+  // {src: "/img/9C.svg", matched: false},
+  // {src: "/img/9S.svg", matched: false},
   {src: "/img/10C.svg", matched: false},
   {src: "/img/10D.svg", matched: false},
   {src: "/img/10H.svg", matched: false},
