@@ -17,9 +17,9 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
             onClick={handleClick} width='100' height='145' alt='card back'/>
         </BrowserView>
         <MobileView>
-          <img className='front' src={card.src} width='80' height='90' alt='card front'/>
+          <img className='front' src={card.src} width='80' height='85' alt='card front'/>
           <img className='back' src='/img/Card_back_2.svg' 
-            onClick={handleClick} width='80' height='90' alt='card back'/>
+            onClick={handleClick} width='80' height='85' alt='card back'/>
         </MobileView>
       </div>
     </div>
